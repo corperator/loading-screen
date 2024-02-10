@@ -4,7 +4,7 @@ let myAudio = new Audio();
 
 myAudio.src = '/audio/indaclub.ogg';
 
-function Gameloop() {
+function GameLoop() {
     myAudio.play();
     if (myAudio.paused == true) {
         myAudio.play();
